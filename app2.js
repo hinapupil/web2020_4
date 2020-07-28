@@ -8,4 +8,9 @@ app.get("/", (req, res) => {
   res.render('show', {mes:message});
 });
 
+app.get("/bye", (req, res) => {
+  const message = "Good bye";
+  res.render('show', {mes:message});
+});
+
 app.listen(8080, () => console.log("Example app listening on port 8080!"));

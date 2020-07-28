@@ -15,8 +15,6 @@
     "set-value": "^2.0.1",
     "sqlite3": "^4.2.0"
   },
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "keywords": []
 }
