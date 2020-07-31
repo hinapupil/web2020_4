@@ -9,10 +9,6 @@ app.get("/", (req, res) => {
   res.render('show', {mes:message});
 });
 
-app.get("/public/test.html", (req, res) => {
-  res.render('test')
-});
-
 app.use(function(req, res, next) {
   res.status(404).send('ページが見つかりません');
 });
